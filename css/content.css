@@ -1,7 +1,16 @@
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Yeseva One', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-  background: #AC8E9C;
 
+  background: #AC8E9C;
+}
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('YesevaOne-Regular.eot');
+    src: local('Yeseva One Regular'), local('YesevaOne-Regular'),
+        url('YesevaOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('YesevaOne-Regular.woff') format('woff'),
+        url('YesevaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1, h2, h3, h4, a, p, div{
