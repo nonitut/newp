@@ -1,8 +1,8 @@
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Yeseva One', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); */
   background: #AC8E9C;
 }
-@font-face {
+/* @font-face {
     font-family: 'Yeseva One';
     src: url('../YesevaOne-Regular.eot');
   src: local('../Yeseva_One/YesevaOne-Regular.ttf')
@@ -12,8 +12,14 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
         url('YesevaOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+} */
+@
+font-face
+ {
+     font-family: 'YesevaOne';
+    src:  url('YesevaOne-Regular.woff') format('woff'),/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('YesevaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-
 h1, h2, h3, h4, a, p, div{
   font-family: 'Yeseva One', arial;
   font-size: 24px;
