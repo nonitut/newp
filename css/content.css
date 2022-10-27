@@ -1,5 +1,5 @@
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Yeseva One', sans-serif;
-
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
   background: #AC8E9C;
 
 }
