@@ -7,7 +7,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 @font-face {
   font-family: 'Yeseva One';
   src: local('Yeseva One'),
-       url("/fonts/YesevaOne-Regular.ttf") format("woff");
+       url("./fonts/YesevaOne-Regular.ttf") format("woff");
 }
 
 
